@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "pyGedcomX"
-version = "0"  # managed by plugin
-description = "GEDCOM X toolbox for Python"
-authors = ["Dominik Kozaczko <dominik@kozaczko.info>"]
-license = "Apache-2.0"
+name = "gedcomx-python"
+version = "0.1.5"
+description = "GEDCOM X Python is the Python implementation of [GEDCOM X](http://www.gedcomx.org)."
+authors = ["Simon Bragg <36492124+maiorsi@users.noreply.github.com>"]
+license = "MIT"
 packages = [
     { include = "gedcomx" },
 ]
 readme = "README.rst"
-repository = "https://github.com/dekoza/pyGedcomX"
+repository = "https://github.com/maiorsi/pyGedcomX"
 keywords = ["genealogy"]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
