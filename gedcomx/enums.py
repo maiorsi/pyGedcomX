@@ -30,7 +30,10 @@ class IdentifierType(GedcomXIdentifier, Enum):
 
 
 class RelationshipType(GedcomXIdentifier, Enum):
+    ancestorDescendant = "http://gedcomx.org/AncestorDescendant"
     couple = "http://gedcomx.org/Couple"
+    enslavedBy = "http://gedcomx.org/EnslavedBy"
+    godParent = "http://gedcomx.org/GodParent"
     parentChild = "http://gedcomx.org/ParentChild"
 
 

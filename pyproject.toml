@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gedcomx-python"
-version = "0.1.5"
+version = "0.1.6"
 description = "GEDCOM X Python is the Python implementation of [GEDCOM X](http://www.gedcomx.org)."
 authors = ["Simon Bragg <36492124+maiorsi@users.noreply.github.com>"]
 license = "MIT"
